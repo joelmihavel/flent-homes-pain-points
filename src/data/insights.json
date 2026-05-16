@@ -15,8 +15,8 @@
     "visibility_pct": 0.4,
     "automation_count": 352,
     "automation_pct": 11.7,
-    "repeat_property_count": 2052,
-    "repeat_property_pct": 68.2,
+    "repeat_property_count": 2068,
+    "repeat_property_pct": 68.7,
     "first_week_count": 882,
     "first_week_pct": 29.3,
     "first_month_count": 1153,
@@ -26,36 +26,36 @@
     "avg_resolution_hours": 185.5,
     "median_resolution_hours": 92.8,
     "total_cost": 2075204.3,
-    "preventable_cost": 108523.0
+    "preventable_cost": 104559.0
   },
   "category_distribution": [
     {
-      "name": "Electrical",
-      "value": 513
-    },
-    {
       "name": "Plumbing",
-      "value": 501
+      "value": 521
     },
     {
       "name": "Carpentry",
-      "value": 415
+      "value": 510
+    },
+    {
+      "name": "Electrical",
+      "value": 498
     },
     {
       "name": "Appliance",
-      "value": 392
+      "value": 443
     },
     {
       "name": "Utilities",
-      "value": 305
-    },
-    {
-      "name": "Other",
-      "value": 304
+      "value": 309
     },
     {
       "name": "Reimbursement",
-      "value": 183
+      "value": 175
+    },
+    {
+      "name": "Other",
+      "value": 156
     },
     {
       "name": "Pest Control",
@@ -63,35 +63,35 @@
     },
     {
       "name": "Cleaning",
-      "value": 73
+      "value": 63
     },
     {
-      "name": "Move-in",
+      "name": "Inventory",
+      "value": 42
+    },
+    {
+      "name": "Access & Security",
       "value": 35
     },
     {
       "name": "Documentation",
-      "value": 33
+      "value": 35
     },
     {
-      "name": "Access & Security",
-      "value": 31
+      "name": "Move-in",
+      "value": 28
     },
     {
       "name": "Internal",
       "value": 27
     },
     {
-      "name": "Inventory",
-      "value": 27
+      "name": "Maintenance",
+      "value": 25
     },
     {
       "name": "Move-out",
-      "value": 26
-    },
-    {
-      "name": "Maintenance",
-      "value": 25
+      "value": 23
     },
     {
       "name": "Communication",
@@ -101,55 +101,55 @@
   "theme_distribution": [
     {
       "name": "Water & Plumbing",
-      "value": 576
-    },
-    {
-      "name": "General Maintenance",
-      "value": 303
-    },
-    {
-      "name": "Connectivity",
-      "value": 293
-    },
-    {
-      "name": "Climate & Comfort",
-      "value": 281
+      "value": 499
     },
     {
       "name": "Appliances",
-      "value": 276
-    },
-    {
-      "name": "Payments & Billing",
-      "value": 266
-    },
-    {
-      "name": "Electrical",
-      "value": 237
+      "value": 484
     },
     {
       "name": "Fixtures & Carpentry",
-      "value": 208
+      "value": 408
     },
     {
-      "name": "Access & Security",
-      "value": 202
+      "name": "Connectivity",
+      "value": 299
+    },
+    {
+      "name": "Payments & Billing",
+      "value": 260
+    },
+    {
+      "name": "Electrical",
+      "value": 227
+    },
+    {
+      "name": "Climate & Comfort",
+      "value": 194
+    },
+    {
+      "name": "General Maintenance",
+      "value": 143
     },
     {
       "name": "Pest Issues",
-      "value": 126
+      "value": 141
+    },
+    {
+      "name": "Access & Security",
+      "value": 128
     },
     {
       "name": "Onboarding",
-      "value": 87
+      "value": 85
     },
     {
       "name": "Cleanliness",
-      "value": 84
+      "value": 72
     },
     {
       "name": "Move-out",
-      "value": 42
+      "value": 41
     },
     {
       "name": "Documentation",
@@ -159,11 +159,11 @@
   "ux_issue_distribution": [
     {
       "name": "Recurring Infrastructure",
-      "value": 1620
+      "value": 1630
     },
     {
       "name": "Physical Resolution Needed",
-      "value": 1127
+      "value": 1116
     },
     {
       "name": "Payment Clarity",
@@ -385,7 +385,7 @@
     {
       "month": "2025-11",
       "tickets": 169,
-      "preventable": 7
+      "preventable": 6
     },
     {
       "month": "2025-12",
@@ -405,7 +405,7 @@
     {
       "month": "2026-03",
       "tickets": 273,
-      "preventable": 18
+      "preventable": 19
     },
     {
       "month": "2026-04",
@@ -421,30 +421,30 @@
   "frustration_by_theme": [
     {
       "theme": "Onboarding",
-      "score": 3.4
-    },
-    {
-      "theme": "Appliances",
-      "score": 2.8
+      "score": 3.6
     },
     {
       "theme": "Access & Security",
       "score": 2.8
     },
     {
-      "theme": "Payments & Billing",
+      "theme": "Appliances",
       "score": 2.7
     },
     {
       "theme": "Pest Issues",
-      "score": 2.6
-    },
-    {
-      "theme": "General Maintenance",
-      "score": 2.6
+      "score": 2.7
     },
     {
       "theme": "Fixtures & Carpentry",
+      "score": 2.7
+    },
+    {
+      "theme": "Climate & Comfort",
+      "score": 2.7
+    },
+    {
+      "theme": "Payments & Billing",
       "score": 2.6
     },
     {
@@ -452,11 +452,11 @@
       "score": 2.5
     },
     {
-      "theme": "Climate & Comfort",
-      "score": 2.5
+      "theme": "Electrical",
+      "score": 2.4
     },
     {
-      "theme": "Electrical",
+      "theme": "General Maintenance",
       "score": 2.4
     },
     {
@@ -464,16 +464,16 @@
       "score": 2.3
     },
     {
+      "theme": "Cleanliness",
+      "score": 2.1
+    },
+    {
       "theme": "Documentation",
       "score": 2.1
     },
     {
-      "theme": "Cleanliness",
-      "score": 2.0
-    },
-    {
       "theme": "Move-out",
-      "score": 1.6
+      "score": 1.7
     }
   ],
   "resolution_by_category": [
@@ -484,13 +484,13 @@
     },
     {
       "category": "Move-in",
-      "avg_hours": 371.7,
-      "median_hours": 241.6
+      "avg_hours": 421.4,
+      "median_hours": 245.0
     },
     {
       "category": "Documentation",
-      "avg_hours": 313.0,
-      "median_hours": 156.8
+      "avg_hours": 318.4,
+      "median_hours": 161.9
     },
     {
       "category": "Internal",
@@ -499,97 +499,97 @@
     },
     {
       "category": "Pest Control",
-      "avg_hours": 245.7,
+      "avg_hours": 251.5,
       "median_hours": 151.0
     },
     {
       "category": "Inventory",
-      "avg_hours": 241.6,
-      "median_hours": 150.0
-    },
-    {
-      "category": "Appliance",
-      "avg_hours": 202.0,
-      "median_hours": 111.9
+      "avg_hours": 247.7,
+      "median_hours": 125.4
     },
     {
       "category": "Carpentry",
-      "avg_hours": 200.9,
-      "median_hours": 120.0
+      "avg_hours": 208.7,
+      "median_hours": 122.7
     },
     {
-      "category": "Cleaning",
-      "avg_hours": 192.8,
-      "median_hours": 77.3
-    },
-    {
-      "category": "Electrical",
-      "avg_hours": 185.8,
-      "median_hours": 91.4
-    },
-    {
-      "category": "Other",
-      "avg_hours": 184.1,
-      "median_hours": 101.3
+      "category": "Appliance",
+      "avg_hours": 201.3,
+      "median_hours": 102.2
     },
     {
       "category": "Access & Security",
-      "avg_hours": 179.2,
-      "median_hours": 86.9
+      "avg_hours": 182.8,
+      "median_hours": 72.0
+    },
+    {
+      "category": "Electrical",
+      "avg_hours": 179.9,
+      "median_hours": 89.0
+    },
+    {
+      "category": "Other",
+      "avg_hours": 171.7,
+      "median_hours": 89.0
     },
     {
       "category": "Plumbing",
-      "avg_hours": 165.5,
-      "median_hours": 74.8
+      "avg_hours": 167.3,
+      "median_hours": 77.6
     },
     {
       "category": "Utilities",
-      "avg_hours": 146.5,
-      "median_hours": 66.7
+      "avg_hours": 147.3,
+      "median_hours": 66.8
+    },
+    {
+      "category": "Cleaning",
+      "avg_hours": 146.7,
+      "median_hours": 77.3
     },
     {
       "category": "Reimbursement",
-      "avg_hours": 93.8,
-      "median_hours": 27.3
+      "avg_hours": 80.8,
+      "median_hours": 24.4
     },
     {
       "category": "Move-out",
-      "avg_hours": 54.4,
-      "median_hours": 22.2
+      "avg_hours": 52.2,
+      "median_hours": 19.4
     }
   ],
   "cost_by_category": [
     {
       "category": "Plumbing",
-      "cost": 458715.0
+      "cost": 455234.0
     },
     {
       "category": "Appliance",
-      "cost": 341173.06
-    },
-    {
-      "category": "Electrical",
-      "cost": 326127.0
+      "cost": 400509.06
     },
     {
       "category": "Carpentry",
-      "cost": 311532.75
+      "cost": 385643.75
+    },
+    {
+      "category": "Electrical",
+      "cost": 310738.0
     },
     {
       "category": "Reimbursement",
-      "cost": 163929.92
-    },
-    {
-      "category": "Other",
-      "cost": 143286.0
+      "cost": 143178.92
     },
     {
       "category": "Pest Control",
-      "cost": 125381.0
+      "cost": 111220.0
+    },
+    {
+      "category": "Other",
+      "cost": 57183.0
     },
     {
       "category": "Cleaning",
-      "cost": 49840.0
+      "cost": 50491.0
     },
     {
       "category": "Internal",
@@ -597,69 +597,70 @@
     },
     {
       "category": "Utilities",
-      "cost": 32572.57
+      "cost": 32701.57
+    },
+    {
+      "category": "Access & Security",
+      "cost": 31357.0
     },
     {
       "category": "Maintenance",
       "cost": 28716.0
     },
     {
-      "category": "Access & Security",
-      "cost": 26855.0
-    },
-    {
       "category": "Move-in",
-      "cost": 21687.0
+      "cost": 18728.0
     },
     {
       "category": "Inventory",
-      "cost": 4156.0
-    },
-    {
-      "category": "Move-out",
-      "cost": 272.0
+      "cost": 8543.0
     }
   ],
   "top_repeat_property_issues": [
     {
-      "property": "R2",
-      "category": "Electrical",
-      "count": 80
+      "property": "R1",
+      "category": "Carpentry",
+      "count": 84
     },
     {
       "property": "R2",
       "category": "Plumbing",
+      "count": 80
+    },
+    {
+      "property": "R2",
+      "category": "Electrical",
+      "count": 78
+    },
+    {
+      "property": "R2",
+      "category": "Carpentry",
       "count": 78
     },
     {
       "property": "R1",
       "category": "Appliance",
-      "count": 70
-    },
-    {
-      "property": "R1",
-      "category": "Carpentry",
-      "count": 69
-    },
-    {
-      "property": "R2",
-      "category": "Carpentry",
-      "count": 66
-    },
-    {
-      "property": "R1",
-      "category": "Electrical",
-      "count": 62
+      "count": 75
     },
     {
       "property": "R1",
       "category": "Plumbing",
-      "count": 59
+      "count": 63
+    },
+    {
+      "property": "R1",
+      "category": "Electrical",
+      "count": 58
+    },
+    {
+      "property": "R3",
+      "category": "Carpentry",
+      "count": 56
     },
     {
       "property": "R3",
       "category": "Electrical",
-      "count": 57
+      "count": 56
     },
     {
       "property": "R2",
@@ -674,89 +675,75 @@
     {
       "property": "R1",
       "category": "Utilities",
-      "count": 50
-    },
-    {
-      "property": "R1",
-      "category": "Other",
-      "count": 50
-    },
-    {
-      "property": "R3",
-      "category": "Other",
-      "count": 45
-    },
-    {
-      "property": "R3",
-      "category": "Carpentry",
-      "count": 42
-    },
-    {
-      "property": "R2",
-      "category": "Utilities",
-      "count": 36
-    },
-    {
-      "property": "R2",
-      "category": "Other",
-      "count": 33
+      "count": 51
     },
     {
       "property": "R3",
       "category": "Appliance",
-      "count": 31
+      "count": 36
+    },
+    {
+      "property": "R2",
+      "category": "Utilities",
+      "count": 35
     },
     {
       "property": "R3",
       "category": "Utilities",
+      "count": 32
+    },
+    {
+      "property": "R3",
+      "category": "Other",
       "count": 31
+    },
+    {
+      "property": "R1",
+      "category": "Other",
+      "count": 28
     },
     {
       "property": "R2",
       "category": "Reimbursement",
-      "count": 25
+      "count": 23
     },
     {
-      "property": "R0",
-      "category": "Electrical",
+      "property": "R1",
+      "category": "Reimbursement",
       "count": 21
     },
     {
       "property": "R1",
-      "category": "Reimbursement",
-      "count": 20
-    },
-    {
-      "property": "R1",
       "category": "Pest Control",
-      "count": 17
-    },
-    {
-      "property": "R3",
-      "category": "Pest Control",
-      "count": 16
+      "count": 18
     },
     {
       "property": "R2",
       "category": "Pest Control",
-      "count": 15
+      "count": 18
+    },
+    {
+      "property": "R0",
+      "category": "Electrical",
+      "count": 18
+    },
+    {
+      "property": "R0",
+      "category": "Carpentry",
+      "count": 18
     },
     {
       "property": "R3",
-      "category": "Reimbursement",
-      "count": 14
+      "category": "Pest Control",
+      "count": 15
+    },
+    {
+      "property": "R0",
+      "category": "Plumbing",
+      "count": 15
     }
   ],
   "property_health": [
-    {
-      "rid": "R0",
-      "total_tickets": 105,
-      "open_tickets": 0,
-      "avg_frustration": 3.8,
-      "recurring_categories": 11,
-      "total_cost": 70825.0,
-      "health_score": 0.7
-    },
     {
       "rid": "R1",
       "total_tickets": 429,
@@ -767,22 +754,31 @@
       "health_score": 0.9
     },
     {
-      "rid": "R3",
-      "total_tickets": 306,
-      "open_tickets": 0,
-      "avg_frustration": 2.8,
-      "recurring_categories": 12,
-      "total_cost": 140550.0,
-      "health_score": 1.2
-    },
-    {
       "rid": "R2",
       "total_tickets": 405,
       "open_tickets": 0,
       "avg_frustration": 3.0,
-      "recurring_categories": 11,
+      "recurring_categories": 12,
       "total_cost": 210111.75,
-      "health_score": 1.5
+      "health_score": 1.0
+    },
+    {
+      "rid": "R0",
+      "total_tickets": 105,
+      "open_tickets": 0,
+      "avg_frustration": 3.9,
+      "recurring_categories": 9,
+      "total_cost": 70825.0,
+      "health_score": 1.6
+    },
+    {
+      "rid": "R3",
+      "total_tickets": 306,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 11,
+      "total_cost": 140550.0,
+      "health_score": 1.7
     },
     {
       "rid": "62BR2",
@@ -797,10 +793,10 @@
       "rid": "80BR1",
       "total_tickets": 14,
       "open_tickets": 0,
-      "avg_frustration": 3.8,
+      "avg_frustration": 3.7,
       "recurring_categories": 2,
       "total_cost": 10226.0,
-      "health_score": 5.2
+      "health_score": 5.3
     },
     {
       "rid": "60BR03",
@@ -848,15 +844,6 @@
       "health_score": 5.8
     },
     {
-      "rid": "84BR0",
-      "total_tickets": 5,
-      "open_tickets": 0,
-      "avg_frustration": 4.2,
-      "recurring_categories": 0,
-      "total_cost": 499.0,
-      "health_score": 5.8
-    },
-    {
       "rid": "130BR5",
       "total_tickets": 4,
       "open_tickets": 0,
@@ -899,6 +886,15 @@
       "avg_frustration": 4.0,
       "recurring_categories": 0,
       "total_cost": 1805.0,
+      "health_score": 6.0
+    },
+    {
+      "rid": "84BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 4.0,
+      "recurring_categories": 0,
+      "total_cost": 499.0,
       "health_score": 6.0
     },
     {
@@ -965,6 +961,15 @@
       "health_score": 6.2
     },
     {
+      "rid": "55BR2",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 3.2,
+      "recurring_categories": 1,
+      "total_cost": 17253.0,
+      "health_score": 6.3
+    },
+    {
       "rid": "37BR1",
       "total_tickets": 15,
       "open_tickets": 0,
@@ -1016,6 +1021,15 @@
       "avg_frustration": 2.6,
       "recurring_categories": 2,
       "total_cost": 13097.3,
+      "health_score": 6.4
+    },
+    {
+      "rid": "139BR0",
+      "total_tickets": 22,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 2,
+      "total_cost": 9144.0,
       "health_score": 6.4
     },
     {
@@ -1082,21 +1096,30 @@
       "health_score": 6.6
     },
     {
+      "rid": "122BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.9,
+      "recurring_categories": 1,
+      "total_cost": 4200.0,
+      "health_score": 6.6
+    },
+    {
+      "rid": "18BR3",
+      "total_tickets": 13,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 1,
+      "total_cost": 13757.0,
+      "health_score": 6.7
+    },
+    {
       "rid": "08BR3",
       "total_tickets": 3,
       "open_tickets": 0,
       "avg_frustration": 3.3,
       "recurring_categories": 0,
       "total_cost": 3200.0,
-      "health_score": 6.7
-    },
-    {
-      "rid": "55BR2",
-      "total_tickets": 10,
-      "open_tickets": 0,
-      "avg_frustration": 2.8,
-      "recurring_categories": 1,
-      "total_cost": 17253.0,
       "health_score": 6.7
     },
     {
@@ -1109,12 +1132,30 @@
       "health_score": 6.7
     },
     {
+      "rid": "40BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 1,
+      "total_cost": 15184.0,
+      "health_score": 6.7
+    },
+    {
       "rid": "27BR1",
       "total_tickets": 6,
       "open_tickets": 0,
       "avg_frustration": 3.3,
       "recurring_categories": 0,
       "total_cost": 17280.0,
+      "health_score": 6.7
+    },
+    {
+      "rid": "108BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 1,
+      "total_cost": 1857.0,
       "health_score": 6.7
     },
     {
@@ -1136,15 +1177,6 @@
       "health_score": 6.8
     },
     {
-      "rid": "102BR3",
-      "total_tickets": 6,
-      "open_tickets": 0,
-      "avg_frustration": 2.7,
-      "recurring_categories": 1,
-      "total_cost": 0.0,
-      "health_score": 6.8
-    },
-    {
       "rid": "21BR2",
       "total_tickets": 17,
       "open_tickets": 0,
@@ -1154,39 +1186,12 @@
       "health_score": 6.8
     },
     {
-      "rid": "40BR2",
-      "total_tickets": 9,
-      "open_tickets": 0,
-      "avg_frustration": 2.7,
-      "recurring_categories": 1,
-      "total_cost": 15184.0,
-      "health_score": 6.8
-    },
-    {
       "rid": "12BR3",
       "total_tickets": 15,
       "open_tickets": 0,
       "avg_frustration": 2.2,
       "recurring_categories": 2,
       "total_cost": 10999.0,
-      "health_score": 6.8
-    },
-    {
-      "rid": "122BR3",
-      "total_tickets": 7,
-      "open_tickets": 0,
-      "avg_frustration": 2.7,
-      "recurring_categories": 1,
-      "total_cost": 4200.0,
-      "health_score": 6.8
-    },
-    {
-      "rid": "139BR0",
-      "total_tickets": 22,
-      "open_tickets": 0,
-      "avg_frustration": 2.7,
-      "recurring_categories": 1,
-      "total_cost": 9144.0,
       "health_score": 6.8
     },
     {
@@ -1208,15 +1213,6 @@
       "health_score": 6.8
     },
     {
-      "rid": "18BR3",
-      "total_tickets": 13,
-      "open_tickets": 0,
-      "avg_frustration": 2.6,
-      "recurring_categories": 1,
-      "total_cost": 13757.0,
-      "health_score": 6.9
-    },
-    {
       "rid": "81BR0",
       "total_tickets": 11,
       "open_tickets": 0,
@@ -1226,12 +1222,39 @@
       "health_score": 6.9
     },
     {
+      "rid": "04BR0",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 1,
+      "total_cost": 913.0,
+      "health_score": 6.9
+    },
+    {
+      "rid": "28BR3",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 1,
+      "total_cost": 1054.0,
+      "health_score": 6.9
+    },
+    {
       "rid": "19BR0",
       "total_tickets": 20,
       "open_tickets": 0,
       "avg_frustration": 2.0,
       "recurring_categories": 2,
       "total_cost": 986.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "15BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 0,
+      "total_cost": 1830.0,
       "health_score": 7.0
     },
     {
@@ -1259,6 +1282,15 @@
       "avg_frustration": 2.0,
       "recurring_categories": 2,
       "total_cost": 10595.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "49BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 2,
+      "total_cost": 23691.0,
       "health_score": 7.0
     },
     {
@@ -1295,15 +1327,6 @@
       "avg_frustration": 2.4,
       "recurring_categories": 1,
       "total_cost": 18944.0,
-      "health_score": 7.1
-    },
-    {
-      "rid": "15BR2",
-      "total_tickets": 7,
-      "open_tickets": 0,
-      "avg_frustration": 2.9,
-      "recurring_categories": 0,
-      "total_cost": 1830.0,
       "health_score": 7.1
     },
     {
@@ -1352,15 +1375,6 @@
       "health_score": 7.1
     },
     {
-      "rid": "65BR2",
-      "total_tickets": 7,
-      "open_tickets": 0,
-      "avg_frustration": 2.3,
-      "recurring_categories": 1,
-      "total_cost": 4618.0,
-      "health_score": 7.2
-    },
-    {
       "rid": "90BR2",
       "total_tickets": 4,
       "open_tickets": 0,
@@ -1370,12 +1384,30 @@
       "health_score": 7.2
     },
     {
+      "rid": "59BR0",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 1,
+      "total_cost": 4804.0,
+      "health_score": 7.2
+    },
+    {
       "rid": "76BR2",
       "total_tickets": 8,
       "open_tickets": 0,
       "avg_frustration": 2.2,
       "recurring_categories": 1,
       "total_cost": 6366.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "24BR2",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 1,
+      "total_cost": 12187.0,
       "health_score": 7.2
     },
     {
@@ -1433,6 +1465,15 @@
       "health_score": 7.2
     },
     {
+      "rid": "101BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 0,
+      "total_cost": 3543.0,
+      "health_score": 7.2
+    },
+    {
       "rid": "83BR2",
       "total_tickets": 6,
       "open_tickets": 0,
@@ -1460,12 +1501,21 @@
       "health_score": 7.2
     },
     {
-      "rid": "59BR0",
-      "total_tickets": 6,
+      "rid": "18BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 2063.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "78BR3",
+      "total_tickets": 9,
       "open_tickets": 0,
       "avg_frustration": 2.2,
       "recurring_categories": 1,
-      "total_cost": 4804.0,
+      "total_cost": 9618.0,
       "health_score": 7.3
     },
     {
@@ -1475,6 +1525,15 @@
       "avg_frustration": 2.7,
       "recurring_categories": 0,
       "total_cost": 439.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "82BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 2460.0,
       "health_score": 7.3
     },
     {
@@ -1493,15 +1552,6 @@
       "avg_frustration": 2.7,
       "recurring_categories": 0,
       "total_cost": 4981.0,
-      "health_score": 7.3
-    },
-    {
-      "rid": "101BR1",
-      "total_tickets": 6,
-      "open_tickets": 0,
-      "avg_frustration": 2.7,
-      "recurring_categories": 0,
-      "total_cost": 3543.0,
       "health_score": 7.3
     },
     {
@@ -1550,30 +1600,12 @@
       "health_score": 7.4
     },
     {
-      "rid": "24BR2",
-      "total_tickets": 10,
-      "open_tickets": 0,
-      "avg_frustration": 2.1,
-      "recurring_categories": 1,
-      "total_cost": 12187.0,
-      "health_score": 7.4
-    },
-    {
       "rid": "88BR1",
       "total_tickets": 7,
       "open_tickets": 0,
       "avg_frustration": 2.6,
       "recurring_categories": 0,
       "total_cost": 7090.0,
-      "health_score": 7.4
-    },
-    {
-      "rid": "123BR0",
-      "total_tickets": 12,
-      "open_tickets": 0,
-      "avg_frustration": 1.6,
-      "recurring_categories": 2,
-      "total_cost": 12468.0,
       "health_score": 7.4
     },
     {
@@ -1595,12 +1627,21 @@
       "health_score": 7.5
     },
     {
-      "rid": "04BR0",
-      "total_tickets": 8,
+      "rid": "48BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 2472.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "102BR3",
+      "total_tickets": 6,
       "open_tickets": 0,
       "avg_frustration": 2.5,
       "recurring_categories": 0,
-      "total_cost": 913.0,
+      "total_cost": 0.0,
       "health_score": 7.5
     },
     {
@@ -1631,6 +1672,15 @@
       "health_score": 7.5
     },
     {
+      "rid": "24BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 12284.0,
+      "health_score": 7.5
+    },
+    {
       "rid": "109BR1",
       "total_tickets": 10,
       "open_tickets": 0,
@@ -1658,21 +1708,21 @@
       "health_score": 7.5
     },
     {
-      "rid": "49BR1",
-      "total_tickets": 9,
-      "open_tickets": 0,
-      "avg_frustration": 2.0,
-      "recurring_categories": 1,
-      "total_cost": 23691.0,
-      "health_score": 7.5
-    },
-    {
       "rid": "37BR3",
       "total_tickets": 7,
       "open_tickets": 0,
       "avg_frustration": 2.4,
       "recurring_categories": 0,
       "total_cost": 12708.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "65BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 4618.0,
       "health_score": 7.6
     },
     {
@@ -1685,30 +1735,12 @@
       "health_score": 7.6
     },
     {
-      "rid": "50BR3",
-      "total_tickets": 7,
-      "open_tickets": 0,
-      "avg_frustration": 1.9,
-      "recurring_categories": 1,
-      "total_cost": 11800.0,
-      "health_score": 7.6
-    },
-    {
       "rid": "82BR3",
       "total_tickets": 8,
       "open_tickets": 0,
       "avg_frustration": 1.9,
       "recurring_categories": 1,
       "total_cost": 5078.0,
-      "health_score": 7.6
-    },
-    {
-      "rid": "28BR3",
-      "total_tickets": 9,
-      "open_tickets": 0,
-      "avg_frustration": 2.4,
-      "recurring_categories": 0,
-      "total_cost": 1054.0,
       "health_score": 7.6
     },
     {
@@ -1721,21 +1753,21 @@
       "health_score": 7.6
     },
     {
-      "rid": "24BR1",
-      "total_tickets": 9,
-      "open_tickets": 0,
-      "avg_frustration": 1.9,
-      "recurring_categories": 1,
-      "total_cost": 12284.0,
-      "health_score": 7.6
-    },
-    {
       "rid": "67BR2",
       "total_tickets": 7,
       "open_tickets": 0,
       "avg_frustration": 2.4,
       "recurring_categories": 0,
       "total_cost": 6860.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "123BR0",
+      "total_tickets": 12,
+      "open_tickets": 0,
+      "avg_frustration": 1.4,
+      "recurring_categories": 2,
+      "total_cost": 12468.0,
       "health_score": 7.6
     },
     {
@@ -1757,30 +1789,12 @@
       "health_score": 7.6
     },
     {
-      "rid": "18BR1",
-      "total_tickets": 3,
+      "rid": "50BR1",
+      "total_tickets": 9,
       "open_tickets": 0,
       "avg_frustration": 2.3,
       "recurring_categories": 0,
-      "total_cost": 2063.0,
-      "health_score": 7.7
-    },
-    {
-      "rid": "48BR3",
-      "total_tickets": 5,
-      "open_tickets": 0,
-      "avg_frustration": 1.8,
-      "recurring_categories": 1,
-      "total_cost": 2472.0,
-      "health_score": 7.7
-    },
-    {
-      "rid": "78BR3",
-      "total_tickets": 9,
-      "open_tickets": 0,
-      "avg_frustration": 1.8,
-      "recurring_categories": 1,
-      "total_cost": 9618.0,
+      "total_cost": 5038.0,
       "health_score": 7.7
     },
     {
@@ -1793,12 +1807,12 @@
       "health_score": 7.7
     },
     {
-      "rid": "82BR2",
+      "rid": "40BR1",
       "total_tickets": 3,
       "open_tickets": 0,
       "avg_frustration": 2.3,
       "recurring_categories": 0,
-      "total_cost": 2460.0,
+      "total_cost": 3362.0,
       "health_score": 7.7
     },
     {
@@ -1865,12 +1879,21 @@
       "health_score": 7.7
     },
     {
-      "rid": "50BR1",
-      "total_tickets": 9,
+      "rid": "49BR5",
+      "total_tickets": 5,
       "open_tickets": 0,
       "avg_frustration": 2.2,
       "recurring_categories": 0,
-      "total_cost": 5038.0,
+      "total_cost": 3848.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "72BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 1,
+      "total_cost": 3964.0,
       "health_score": 7.8
     },
     {
@@ -1919,15 +1942,6 @@
       "health_score": 7.8
     },
     {
-      "rid": "122BR2",
-      "total_tickets": 6,
-      "open_tickets": 0,
-      "avg_frustration": 2.2,
-      "recurring_categories": 0,
-      "total_cost": 7420.0,
-      "health_score": 7.8
-    },
-    {
       "rid": "75BR0",
       "total_tickets": 9,
       "open_tickets": 0,
@@ -1946,6 +1960,15 @@
       "health_score": 7.8
     },
     {
+      "rid": "84BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.1,
+      "recurring_categories": 0,
+      "total_cost": 7088.0,
+      "health_score": 7.9
+    },
+    {
       "rid": "44BR3",
       "total_tickets": 8,
       "open_tickets": 0,
@@ -1955,21 +1978,21 @@
       "health_score": 7.9
     },
     {
-      "rid": "49BR5",
-      "total_tickets": 5,
-      "open_tickets": 0,
-      "avg_frustration": 2.0,
-      "recurring_categories": 0,
-      "total_cost": 3848.0,
-      "health_score": 8.0
-    },
-    {
       "rid": "47BR1",
       "total_tickets": 3,
       "open_tickets": 0,
       "avg_frustration": 2.0,
       "recurring_categories": 0,
       "total_cost": 10287.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "64BR0",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 1,
+      "total_cost": 1973.75,
       "health_score": 8.0
     },
     {
@@ -2000,6 +2023,15 @@
       "health_score": 8.0
     },
     {
+      "rid": "26BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 1,
+      "total_cost": 3670.0,
+      "health_score": 8.0
+    },
+    {
       "rid": "68BR2",
       "total_tickets": 3,
       "open_tickets": 0,
@@ -2024,15 +2056,6 @@
       "avg_frustration": 2.0,
       "recurring_categories": 0,
       "total_cost": 1170.0,
-      "health_score": 8.0
-    },
-    {
-      "rid": "40BR1",
-      "total_tickets": 3,
-      "open_tickets": 0,
-      "avg_frustration": 2.0,
-      "recurring_categories": 0,
-      "total_cost": 3362.0,
       "health_score": 8.0
     },
     {
@@ -2099,6 +2122,24 @@
       "health_score": 8.0
     },
     {
+      "rid": "13BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 9257.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "50BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.9,
+      "recurring_categories": 0,
+      "total_cost": 11800.0,
+      "health_score": 8.1
+    },
+    {
       "rid": "62BR3",
       "total_tickets": 5,
       "open_tickets": 0,
@@ -2135,42 +2176,6 @@
       "health_score": 8.2
     },
     {
-      "rid": "84BR1",
-      "total_tickets": 9,
-      "open_tickets": 0,
-      "avg_frustration": 1.8,
-      "recurring_categories": 0,
-      "total_cost": 7088.0,
-      "health_score": 8.2
-    },
-    {
-      "rid": "48BR1",
-      "total_tickets": 4,
-      "open_tickets": 0,
-      "avg_frustration": 1.8,
-      "recurring_categories": 0,
-      "total_cost": 484.0,
-      "health_score": 8.2
-    },
-    {
-      "rid": "70BR3",
-      "total_tickets": 5,
-      "open_tickets": 0,
-      "avg_frustration": 1.8,
-      "recurring_categories": 0,
-      "total_cost": 1038.0,
-      "health_score": 8.2
-    },
-    {
-      "rid": "21BR3",
-      "total_tickets": 4,
-      "open_tickets": 0,
-      "avg_frustration": 1.8,
-      "recurring_categories": 0,
-      "total_cost": 1780.0,
-      "health_score": 8.2
-    },
-    {
       "rid": "99BR3",
       "total_tickets": 4,
       "open_tickets": 0,
@@ -2186,6 +2191,15 @@
       "avg_frustration": 1.8,
       "recurring_categories": 0,
       "total_cost": 5875.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "122BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 7420.0,
       "health_score": 8.2
     },
     {
@@ -2243,12 +2257,12 @@
       "health_score": 8.3
     },
     {
-      "rid": "108BR1",
-      "total_tickets": 6,
+      "rid": "19BR2",
+      "total_tickets": 3,
       "open_tickets": 0,
       "avg_frustration": 1.7,
       "recurring_categories": 0,
-      "total_cost": 1857.0,
+      "total_cost": 2201.0,
       "health_score": 8.3
     },
     {
@@ -2276,15 +2290,6 @@
       "avg_frustration": 1.2,
       "recurring_categories": 1,
       "total_cost": 3568.0,
-      "health_score": 8.3
-    },
-    {
-      "rid": "13BR2",
-      "total_tickets": 3,
-      "open_tickets": 0,
-      "avg_frustration": 1.7,
-      "recurring_categories": 0,
-      "total_cost": 9257.0,
       "health_score": 8.3
     },
     {
@@ -2324,12 +2329,12 @@
       "health_score": 8.4
     },
     {
-      "rid": "72BR1",
-      "total_tickets": 6,
+      "rid": "69BR1",
+      "total_tickets": 4,
       "open_tickets": 0,
       "avg_frustration": 1.5,
       "recurring_categories": 0,
-      "total_cost": 3964.0,
+      "total_cost": 897.0,
       "health_score": 8.5
     },
     {
@@ -2339,15 +2344,6 @@
       "avg_frustration": 1.5,
       "recurring_categories": 0,
       "total_cost": 1972.0,
-      "health_score": 8.5
-    },
-    {
-      "rid": "64BR0",
-      "total_tickets": 11,
-      "open_tickets": 0,
-      "avg_frustration": 1.5,
-      "recurring_categories": 0,
-      "total_cost": 1973.75,
       "health_score": 8.5
     },
     {
@@ -2378,12 +2374,30 @@
       "health_score": 8.5
     },
     {
+      "rid": "48BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 484.0,
+      "health_score": 8.5
+    },
+    {
       "rid": "61BR1",
       "total_tickets": 4,
       "open_tickets": 0,
       "avg_frustration": 1.5,
       "recurring_categories": 0,
       "total_cost": 3983.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "21BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 1780.0,
       "health_score": 8.5
     },
     {
@@ -2423,21 +2437,21 @@
       "health_score": 8.6
     },
     {
+      "rid": "70BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.4,
+      "recurring_categories": 0,
+      "total_cost": 1038.0,
+      "health_score": 8.6
+    },
+    {
       "rid": "63BR1",
       "total_tickets": 6,
       "open_tickets": 0,
       "avg_frustration": 1.3,
       "recurring_categories": 0,
       "total_cost": 5038.0,
-      "health_score": 8.7
-    },
-    {
-      "rid": "26BR1",
-      "total_tickets": 6,
-      "open_tickets": 0,
-      "avg_frustration": 1.3,
-      "recurring_categories": 0,
-      "total_cost": 3670.0,
       "health_score": 8.7
     },
     {
@@ -2465,6 +2479,15 @@
       "avg_frustration": 1.3,
       "recurring_categories": 0,
       "total_cost": 1800.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "76BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
       "health_score": 8.7
     },
     {
@@ -2585,12 +2608,12 @@
       "health_score": 8.8
     },
     {
-      "rid": "69BR1",
+      "rid": "46BR2",
       "total_tickets": 4,
       "open_tickets": 0,
       "avg_frustration": 1.0,
       "recurring_categories": 0,
-      "total_cost": 897.0,
+      "total_cost": 1000.0,
       "health_score": 9.0
     },
     {
@@ -2603,21 +2626,12 @@
       "health_score": 9.0
     },
     {
-      "rid": "19BR2",
-      "total_tickets": 3,
+      "rid": "115BR2",
+      "total_tickets": 5,
       "open_tickets": 0,
       "avg_frustration": 1.0,
       "recurring_categories": 0,
-      "total_cost": 2201.0,
-      "health_score": 9.0
-    },
-    {
-      "rid": "76BR1",
-      "total_tickets": 3,
-      "open_tickets": 0,
-      "avg_frustration": 1.0,
-      "recurring_categories": 0,
-      "total_cost": 0.0,
+      "total_cost": 547.0,
       "health_score": 9.0
     },
     {
@@ -2657,6 +2671,15 @@
       "health_score": 9.0
     },
     {
+      "rid": "27BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 9.0
+    },
+    {
       "rid": "30BR2",
       "total_tickets": 9,
       "open_tickets": 0,
@@ -2672,15 +2695,6 @@
       "avg_frustration": 0.8,
       "recurring_categories": 0,
       "total_cost": 1057.0,
-      "health_score": 9.2
-    },
-    {
-      "rid": "46BR2",
-      "total_tickets": 4,
-      "open_tickets": 0,
-      "avg_frustration": 0.8,
-      "recurring_categories": 0,
-      "total_cost": 1000.0,
       "health_score": 9.2
     },
     {
@@ -2729,74 +2743,52 @@
       "health_score": 9.3
     },
     {
-      "rid": "27BR2",
-      "total_tickets": 3,
-      "open_tickets": 0,
-      "avg_frustration": 0.7,
-      "recurring_categories": 0,
-      "total_cost": 0.0,
-      "health_score": 9.3
-    },
-    {
-      "rid": "115BR2",
-      "total_tickets": 5,
-      "open_tickets": 0,
-      "avg_frustration": 0.6,
-      "recurring_categories": 0,
-      "total_cost": 547.0,
-      "health_score": 9.4
-    },
-    {
       "rid": "64BR1",
       "total_tickets": 7,
       "open_tickets": 0,
-      "avg_frustration": 0.4,
+      "avg_frustration": 0.6,
       "recurring_categories": 0,
       "total_cost": 602.0,
-      "health_score": 9.6
+      "health_score": 9.4
     },
     {
       "rid": "132BR1",
       "total_tickets": 3,
       "open_tickets": 0,
-      "avg_frustration": 0.0,
+      "avg_frustration": 0.3,
       "recurring_categories": 0,
       "total_cost": 1647.0,
-      "health_score": 10.0
+      "health_score": 9.7
     }
   ],
   "first_week_by_theme": [
     {
       "theme": "Water & Plumbing",
-      "count": 156
-    },
-    {
-      "theme": "General Maintenance",
-      "count": 133
-    },
-    {
-      "theme": "Connectivity",
-      "count": 83
+      "count": 144
     },
     {
       "theme": "Appliances",
-      "count": 82
-    },
-    {
-      "theme": "Climate & Comfort",
-      "count": 74
-    },
-    {
-      "theme": "Access & Security",
-      "count": 67
-    },
-    {
-      "theme": "Electrical",
-      "count": 64
+      "count": 142
     },
     {
       "theme": "Fixtures & Carpentry",
-      "count": 55
+      "count": 137
+    },
+    {
+      "theme": "Connectivity",
+      "count": 88
+    },
+    {
+      "theme": "Electrical",
+      "count": 59
+    },
+    {
+      "theme": "Climate & Comfort",
+      "count": 58
+    },
+    {
+      "theme": "General Maintenance",
+      "count": 44
     },
     {
       "theme": "Onboarding",
@@ -2807,12 +2799,16 @@
       "count": 43
     },
     {
+      "theme": "Access & Security",
+      "count": 41
+    },
+    {
       "theme": "Pest Issues",
-      "count": 33
+      "count": 36
     },
     {
       "theme": "Cleanliness",
-      "count": 27
+      "count": 26
     },
     {
       "theme": "Documentation",
@@ -2820,7 +2816,7 @@
     },
     {
       "theme": "Move-out",
-      "count": 7
+      "count": 6
     }
   ],
   "repeat_customers": [
@@ -2910,7 +2906,7 @@
       "type": "preventable",
       "severity": "high",
       "title": "10.5% of tickets are preventable",
-      "description": "317 tickets could be prevented through better UX. Top preventable categories: Utilities (57), Electrical (56), Reimbursement (48).",
+      "description": "317 tickets could be prevented through better UX. Top preventable categories: Utilities (57), Electrical (55), Appliance (48).",
       "recommendation": "Invest in self-serve tools, proactive information sharing, and guided troubleshooting flows"
     },
     {
@@ -2924,7 +2920,7 @@
       "type": "onboarding",
       "severity": "high",
       "title": "29.3% of tickets come within the first week of tenancy",
-      "description": "882 tickets are raised within 7 days of a customer's first ticket. Top themes: Water & Plumbing (156), General Maintenance (133), Connectivity (83). This is pure onboarding friction.",
+      "description": "882 tickets are raised within 7 days of a customer's first ticket. Top themes: Water & Plumbing (144), Appliances (142), Fixtures & Carpentry (137). This is pure onboarding friction.",
       "recommendation": "Create an interactive move-in checklist that proactively addresses WiFi setup, utility connections, appliance guides, and key contacts"
     },
     {
@@ -2938,28 +2934,28 @@
       "type": "infrastructure",
       "severity": "high",
       "title": "5 properties account for disproportionate ticket volume",
-      "description": "Worst health scores: R0 (score 0.7/10, 105 tickets), R1 (score 0.9/10, 429 tickets), R3 (score 1.2/10, 306 tickets). These need proactive maintenance audits.",
+      "description": "Worst health scores: R1 (score 0.9/10, 429 tickets), R2 (score 1.0/10, 405 tickets), R0 (score 1.6/10, 105 tickets). These need proactive maintenance audits.",
       "recommendation": "Schedule quarterly maintenance inspections for properties with health score below 5"
     },
     {
       "type": "cost",
       "severity": "medium",
       "title": "\u20b92,075,204 total cost across all tickets",
-      "description": "Highest cost categories: Plumbing (\u20b9458,715), Appliance (\u20b9341,173), Electrical (\u20b9326,127). Preventable tickets alone account for \u20b9108,523.",
+      "description": "Highest cost categories: Plumbing (\u20b9455,234), Appliance (\u20b9400,509), Carpentry (\u20b9385,644). Preventable tickets alone account for \u20b9104,559.",
       "recommendation": "Focus cost reduction on the top 3 categories \u2014 preventable tickets represent recoverable spend"
     },
     {
       "type": "resolution_time",
       "severity": "medium",
       "title": "Average resolution: 7.7 days (median: 3.9 days)",
-      "description": "Slowest categories: Maintenance (18.6d avg), Move-in (15.5d avg), Documentation (13.0d avg). Tickets open over 7 days have 2x frustration scores.",
+      "description": "Slowest categories: Maintenance (18.6d avg), Move-in (17.6d avg), Documentation (13.3d avg). Tickets open over 7 days have 2x frustration scores.",
       "recommendation": "Set category-specific SLAs and display expected resolution times to tenants at ticket creation"
     },
     {
       "type": "self_serve",
       "severity": "medium",
       "title": "199 tickets could have been self-served",
-      "description": "Top self-serve themes: Connectivity (44), General Maintenance (27), Payments & Billing (26). These were resolved by resets, basic troubleshooting, or information that should be accessible.",
+      "description": "Top self-serve themes: Connectivity (46), Appliances (34), Payments & Billing (26). These were resolved by resets, basic troubleshooting, or information that should be accessible.",
       "recommendation": "Add contextual self-help before ticket creation: 'Before raising a ticket, try these steps...'"
     },
     {

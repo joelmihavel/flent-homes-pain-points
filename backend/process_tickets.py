@@ -130,40 +130,81 @@ CATEGORY_MAP = {
 # ─────────────────────────────────────────────────────────────────────────────
 
 DESCRIPTION_RULES = [
-    # Plumbing
-    (r"\b(leak|leaking|leakage|drain|drainage|clog|blocked|flush|toilet|basin|tap|pipe|seepage|water\s?tank|sewer|gutter|bathroom.*water|water.*bathroom)\b", "Plumbing"),
+    # Appliance — must be BEFORE plumbing/electrical to catch "water filter", "geyser", "washing machine"
+    (r"\b(ro\b|water\s?filter|water\s?purifier|aquaguard|washing\s?machin|waching\s?machin|fridge|refrigerator|microwave|chimney|oven|stove|gas\s?stove|gas\s?knob|induction|mixer|geyser|geysar|drinkprime|tv|television|iron\s?box|iron(?!\s?rod)|exhaust\s?fan|exhaust|cloth\s?drying|drying\s?stand|lamp|aquarium|vacuum|ventilation)\b", "Appliance"),
+    # Plumbing — water issues that are NOT appliances
+    (r"\b(leak|leaking|leakage|drain|drainage|clog|blocked|flush|toilet|basin|washbasin|washbeshan|tap|pipe|seepage|water\s?tank|sewer|gutter|bathroom.*water|water.*bathroom|water\s?pressure|shower\s?pressure|shower.*not\s?work|sink|water\s?issue|hard\s?water|low.*pressure|plumb|no\s?water|drinking\s?water|water\s?damage)\b", "Plumbing"),
     # Electrical
-    (r"\b(switch|wire|wiring|socket|power|electricity|volt|mcb|circuit|breaker|short\s?circuit|current|light.*not|not.*light|bulb|led|tubelight|tube\s?light|fan.*not|not.*fan|ac\b|air\s?condition|geyser|heater)\b", "Electrical"),
-    # Appliance
-    (r"\b(ro\b|water\s?purifier|aquaguard|washing\s?machine|fridge|refrigerator|microwave|chimney|oven|stove|gas\s?stove|induction|mixer|geyser|drinkprime|tv|television)\b", "Appliance"),
+    (r"\b(switch|wire|wiring|socket|power|electricity|volt|mcb|circuit|breaker|short\s?circuit|current|light.*not|not.*light|bulb|led|tubelight|tube\s?light|fan.*not|not.*fan|fan.*nois|fan.*noice|fan\s?making|fan.*slow|ac\b|air\s?condition|heater)\b", "Electrical"),
     # WiFi / Connectivity
     (r"\b(wifi|wi-fi|internet|router|broadband|airtel|jio|bsnl|network|connectivity|modem|speed.*slow|slow.*speed|no.*internet|internet.*not|disconnecting)\b", "Utilities"),
-    # Carpentry
-    (r"\b(door|window|wardrobe|cupboard|drawer|cabinet|shelf|hinge|handle|latch|wood|plywood|veneer|edge\s?band|bed.*frame|frame|table|chair|desk)\b", "Carpentry"),
+    # Carpentry / Fixtures / Furniture
+    (r"\b(door|window|wardrobe|cupboard|drawer|cabinet|shelf|hinge|handle|latch|wood|plywood|veneer|edge\s?band|bed.*frame|frame|bed.*broken|broken.*bed|table|chair|desk|hooks?|rod|hanger|towel\s?holder|curtains?|black\s?out|blackout|ladder|painting|wall\s?art|crack\s?in|hole\s?in\s?the\s?wall|furniture|sofa|mattress|bedsheet|bed\s?sheet|pillow|cushion|rack|net\b|pigeon\s?net|mosquito\s?mesh|balcony)\b", "Carpentry"),
     # Pest Control
-    (r"\b(pest|cockroach|rat|mouse|mice|ant|ants|mosquito|termite|bed\s?bug|spider|lizard|pigeon|snake)\b", "Pest Control"),
+    (r"\b(pest|cockroach|roach|roaches|rat|rats|mouse|mice|ant|ants|mosquito|termite|bed\s?bug|spider|lizard|pigeon|snake|smell|stink|bad\s?odour|bad\s?odor|bad\s?smell|fish|infest)\b", "Pest Control"),
+    # Cleaning
+    (r"\b(clean|cleaning|hygiene|dirty|stain|deep\s?clean|mop|sweep|garbage|dustbin|trash|bucket|mug)\b", "Cleaning"),
     # Payment / Billing
     (r"\b(rent|payment|paid|bill|invoice|refund|reimburse|deposit|security\s?deposit|due|pending.*payment|payment.*pending|charge|emi|receipt|electricity\s?bill|water\s?bill|maintenance\s?charge)\b", "Reimbursement"),
     # Move-in
     (r"\b(move[\s-]?in|movein|onboard|new\s?tenant|just\s?moved|shifted|handover|formalities|bgv|background\s?verification|police\s?verification|agreement\s?sign|inventory\s?check|first\s?day)\b", "Move-in"),
     # Move-out
     (r"\b(move[\s-]?out|moveout|vacate|notice\s?period|leaving|shifting\s?out|exit|surrender)\b", "Move-out"),
-    # Cleaning
-    (r"\b(clean|cleaning|hygiene|dirty|stain|wash|mop|sweep|garbage|dustbin|trash)\b", "Cleaning"),
     # Locks / Access
-    (r"\b(lock|key|duplicate\s?key|main\s?door|door\s?lock|smart\s?lock|access|entry)\b", "Access & Security"),
+    (r"\b(lock|lockbox|key|keys|duplicate\s?key|main\s?door|door\s?lock|smart\s?lock|missing\s?key)\b", "Access & Security"),
     # Gas/Utilities
-    (r"\b(gas\s?cylinder|lpg|gas.*connect|pipeline|water\s?supply|tanker|borewell)\b", "Utilities"),
+    (r"\b(gas\s?cylinder|gas\s?lighter|lpg|gas.*connect|pipeline|water\s?supply|tanker|borewell|parking)\b", "Utilities"),
     # Documentation
     (r"\b(agreement|contract|document|noc|letter|stamp|notary|registration|verification)\b", "Documentation"),
+    # Inventory / missing items
+    (r"\b(missing|not\s?provided|not\s?given|need\s?a\s?new|needs?\s?replacement|install|provide|required|basket|laundry|stand)\b", "Inventory"),
+    # Reimbursement — broader catch
+    (r"\b(cab\s?reimburse|maintenance\s?charge|society\s?due|unpaid)\b", "Reimbursement"),
+    # Access — broader
+    (r"\b(locked\s?from|bathroom\s?lock)\b", "Access & Security"),
 ]
 
 
+# Direct short-description-to-category map for 1-2 word descriptions
+SHORT_DESC_MAP = {
+    "plumbing": "Plumbing",
+    "electrical": "Electrical",
+    "appliance": "Appliance",
+    "carpentry": "Carpentry",
+    "pest control": "Pest Control",
+    "cleaning": "Cleaning",
+    "utilities": "Utilities",
+    "wifi": "Utilities",
+    "reimbursement": "Reimbursement",
+    "maintenance": "Maintenance",
+    "inventory": "Inventory",
+    "move-in": "Move-in",
+    "move-out": "Move-out",
+    "documentation": "Documentation",
+}
+
+
 def classify_from_text(title, description):
-    text = f"{title} {description}".lower()
+    text = f"{title} {description}".lower().strip()
+    desc_lower = description.lower().strip()
+
+    # If description is very short (1-2 words), try direct category lookup
+    if len(desc_lower.split()) <= 2:
+        mapped = SHORT_DESC_MAP.get(desc_lower)
+        if mapped:
+            return mapped
+
+    # Try regex rules
     for pattern, category in DESCRIPTION_RULES:
         if re.search(pattern, text):
             return category
+
+    # Last resort: check if the ticket name contains category-like words
+    name_lower = title.lower()
+    for pattern, category in DESCRIPTION_RULES:
+        if re.search(pattern, name_lower):
+            return category
+
     return "Other"
 
 
@@ -177,6 +218,13 @@ def normalize_category(raw_cat, title="", description=""):
             return classify_from_text(title, description)
         return result
     if re.match(r"\d+br\d+", raw_lower) or "|" in raw_lower:
+        # Raw category is a property ID or pipe-separated — extract text after pipe
+        if "|" in raw_lower:
+            after_pipe = raw_lower.split("|", 1)[1].strip()
+            if after_pipe:
+                for pattern, category in DESCRIPTION_RULES:
+                    if re.search(pattern, after_pipe):
+                        return category
         return classify_from_text(title, description)
     return classify_from_text(title, description)
 
@@ -313,7 +361,7 @@ def detect_ux_theme(ticket):
     text = f"{ticket.get('description', '')} {ticket.get('name', '')}".lower()
     cat = ticket.get("category", "")
 
-    # Explicit theme from text
+    # Explicit theme from text — ORDER MATTERS: specific before general
     if re.search(r"\b(move[\s-]?in|movein|onboard|formalities|handover|just\s?(moved|shifted)|new\s?tenant)\b", text):
         return "Onboarding"
     if re.search(r"\b(move[\s-]?out|moveout|vacate|notice\s?period|leaving|shifting\s?out)\b", text):
@@ -322,22 +370,26 @@ def detect_ux_theme(ticket):
         return "Payments & Billing"
     if re.search(r"\b(wifi|wi-fi|internet|router|broadband|network|connectivity)\b", text):
         return "Connectivity"
-    if re.search(r"\b(water|leak|drain|flush|toilet|basin|tap|pipe|seepage|plumb|sewer)\b", text):
-        return "Water & Plumbing"
-    if re.search(r"\b(ac\b|air\s?condition|fan|geyser|heater|cooling|heating|temperature)\b", text):
-        return "Climate & Comfort"
-    if re.search(r"\b(ro\b|purifier|washing\s?machine|fridge|microwave|chimney|oven|stove|appliance|drinkprime|tv|television)\b", text):
+    # Appliances BEFORE plumbing — "water filter", "geyser", "washing machine" are appliances
+    if re.search(r"\b(ro\b|water\s?filter|water\s?purifier|aquaguard|washing\s?machin|fridge|refrigerator|microwave|chimney|oven|stove|appliance|gas\s?knob|drinkprime|tv|television|iron\s?box|exhaust\s?fan|exhaust|vacuum|lamp|drying\s?stand|ventilation)\b", text):
         return "Appliances"
-    if re.search(r"\b(pest|cockroach|rat|ant|mosquito|termite|bed\s?bug|lizard|pigeon)\b", text):
+    if re.search(r"\b(ac\b|air\s?condition|fan(?!\s?making)(?!\s?nois)(?!\s?slow)|geyser|geysar|heater|cooling|heating|temperature)\b", text):
+        return "Climate & Comfort"
+    if re.search(r"\b(water(?!\s?filter)|leak|drain|flush|toilet|basin|washbasin|tap|pipe|seepage|plumb|sewer|shower|sink|hard\s?water|no\s?water|water\s?damage)\b", text):
+        return "Water & Plumbing"
+    if re.search(r"\b(pest|cockroach|roach|roaches|rat|rats|ant|ants|mosquito|termite|bed\s?bug|lizard|pigeon|smell|stink|bad\s?odour|bad\s?odor|bad\s?smell|infest)\b", text):
         return "Pest Issues"
-    if re.search(r"\b(lock|key|door|access|entry|security|window)\b", text):
+    if re.search(r"\b(lock|lockbox|key|keys|access|entry|security)\b", text):
         return "Access & Security"
-    if re.search(r"\b(clean|hygiene|dirty|stain|garbage|dustbin)\b", text):
+    if re.search(r"\b(clean|hygiene|dirty|stain|garbage|dustbin|deep\s?clean|bucket|mug)\b", text):
         return "Cleanliness"
     if re.search(r"\b(agreement|contract|document|verification|noc)\b", text):
         return "Documentation"
-    if re.search(r"\b(switch|socket|wire|wiring|power|electric|light|bulb|mcb|circuit)\b", text):
+    if re.search(r"\b(switch|socket|wire|wiring|power|electric|light|bulb|mcb|circuit|fan\s?making|fan\s?nois|fan.*slow)\b", text):
         return "Electrical"
+    # Fixtures / Carpentry / Furniture — broad catch for physical items
+    if re.search(r"\b(door|window|wardrobe|cupboard|drawer|cabinet|shelf|hinge|handle|bed|frame|table|chair|desk|hooks?|rod|curtains?|blackout|painting|wall\s?art|crack|hole|furniture|sofa|mattress|bedsheet|pillow|rack|ladder|balcony|net\b)\b", text):
+        return "Fixtures & Carpentry"
 
     # Fallback from category
     theme_from_cat = {
@@ -354,6 +406,9 @@ def detect_ux_theme(ticket):
         "Documentation": "Documentation",
         "Access & Security": "Access & Security",
         "Maintenance": "General Maintenance",
+        "Inventory": "Fixtures & Carpentry",
+        "Communication": "General Maintenance",
+        "Internal": "General Maintenance",
     }
     return theme_from_cat.get(cat, "General Maintenance")
 
