@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
   AlertTriangle,
-  LayersThree01,
   TrendUp01,
   Grid01,
   Route,
@@ -13,7 +12,6 @@ import {
 
 const NAV = [
   { href: "/", label: "Pain Points", icon: AlertTriangle },
-  { href: "/sub-categories", label: "Sub-categories", icon: LayersThree01 },
   { href: "/trends", label: "Trends", icon: TrendUp01 },
   { href: "/heatmap", label: "Property × Theme", icon: Grid01 },
   { href: "/resolution", label: "Resolution Journey", icon: Route },
