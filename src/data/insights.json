@@ -1,0 +1,2973 @@
+{
+  "summary": {
+    "total_tickets": 3010,
+    "open_tickets": 0,
+    "closed_tickets": 3010,
+    "preventable_count": 317,
+    "preventable_pct": 10.5,
+    "onboarding_count": 91,
+    "onboarding_pct": 3.0,
+    "communication_count": 24,
+    "communication_pct": 0.8,
+    "self_serve_count": 199,
+    "self_serve_pct": 6.6,
+    "visibility_count": 13,
+    "visibility_pct": 0.4,
+    "automation_count": 352,
+    "automation_pct": 11.7,
+    "repeat_property_count": 2052,
+    "repeat_property_pct": 68.2,
+    "first_week_count": 882,
+    "first_week_pct": 29.3,
+    "first_month_count": 1153,
+    "first_month_pct": 38.3,
+    "zero_effort_count": 181,
+    "zero_effort_pct": 6.0,
+    "avg_resolution_hours": 185.5,
+    "median_resolution_hours": 92.8,
+    "total_cost": 2075204.3,
+    "preventable_cost": 108523.0
+  },
+  "category_distribution": [
+    {
+      "name": "Electrical",
+      "value": 513
+    },
+    {
+      "name": "Plumbing",
+      "value": 501
+    },
+    {
+      "name": "Carpentry",
+      "value": 415
+    },
+    {
+      "name": "Appliance",
+      "value": 392
+    },
+    {
+      "name": "Utilities",
+      "value": 305
+    },
+    {
+      "name": "Other",
+      "value": 304
+    },
+    {
+      "name": "Reimbursement",
+      "value": 183
+    },
+    {
+      "name": "Pest Control",
+      "value": 117
+    },
+    {
+      "name": "Cleaning",
+      "value": 73
+    },
+    {
+      "name": "Move-in",
+      "value": 35
+    },
+    {
+      "name": "Documentation",
+      "value": 33
+    },
+    {
+      "name": "Access & Security",
+      "value": 31
+    },
+    {
+      "name": "Internal",
+      "value": 27
+    },
+    {
+      "name": "Inventory",
+      "value": 27
+    },
+    {
+      "name": "Move-out",
+      "value": 26
+    },
+    {
+      "name": "Maintenance",
+      "value": 25
+    },
+    {
+      "name": "Communication",
+      "value": 3
+    }
+  ],
+  "theme_distribution": [
+    {
+      "name": "Water & Plumbing",
+      "value": 576
+    },
+    {
+      "name": "General Maintenance",
+      "value": 303
+    },
+    {
+      "name": "Connectivity",
+      "value": 293
+    },
+    {
+      "name": "Climate & Comfort",
+      "value": 281
+    },
+    {
+      "name": "Appliances",
+      "value": 276
+    },
+    {
+      "name": "Payments & Billing",
+      "value": 266
+    },
+    {
+      "name": "Electrical",
+      "value": 237
+    },
+    {
+      "name": "Fixtures & Carpentry",
+      "value": 208
+    },
+    {
+      "name": "Access & Security",
+      "value": 202
+    },
+    {
+      "name": "Pest Issues",
+      "value": 126
+    },
+    {
+      "name": "Onboarding",
+      "value": 87
+    },
+    {
+      "name": "Cleanliness",
+      "value": 84
+    },
+    {
+      "name": "Move-out",
+      "value": 42
+    },
+    {
+      "name": "Documentation",
+      "value": 29
+    }
+  ],
+  "ux_issue_distribution": [
+    {
+      "name": "Recurring Infrastructure",
+      "value": 1620
+    },
+    {
+      "name": "Physical Resolution Needed",
+      "value": 1127
+    },
+    {
+      "name": "Payment Clarity",
+      "value": 248
+    },
+    {
+      "name": "Self-serve Opportunity",
+      "value": 199
+    },
+    {
+      "name": "Onboarding Friction",
+      "value": 91
+    },
+    {
+      "name": "Expectation Mismatch",
+      "value": 31
+    },
+    {
+      "name": "Vendor Dependency",
+      "value": 25
+    },
+    {
+      "name": "Communication Gap",
+      "value": 24
+    },
+    {
+      "name": "Process Unclear",
+      "value": 23
+    },
+    {
+      "name": "Status Visibility",
+      "value": 13
+    },
+    {
+      "name": "Landlord Dependency",
+      "value": 11
+    }
+  ],
+  "resolution_type_distribution": [
+    {
+      "name": "Manual resolution",
+      "value": 1017
+    },
+    {
+      "name": "Unknown",
+      "value": 695
+    },
+    {
+      "name": "Repair / service",
+      "value": 605
+    },
+    {
+      "name": "Part replacement",
+      "value": 237
+    },
+    {
+      "name": "Information shared",
+      "value": 137
+    },
+    {
+      "name": "Financial resolution",
+      "value": 131
+    },
+    {
+      "name": "Pending / waiting",
+      "value": 79
+    },
+    {
+      "name": "Vendor visit",
+      "value": 51
+    },
+    {
+      "name": "Duplicate ticket",
+      "value": 29
+    },
+    {
+      "name": "Escalated",
+      "value": 14
+    },
+    {
+      "name": "No issue found",
+      "value": 11
+    },
+    {
+      "name": "Self-resolved",
+      "value": 4
+    }
+  ],
+  "root_cause_distribution": [
+    {
+      "name": "Undiagnosed",
+      "value": 1730
+    },
+    {
+      "name": "Equipment malfunction",
+      "value": 556
+    },
+    {
+      "name": "Physical damage / wear",
+      "value": 397
+    },
+    {
+      "name": "Recurring / duplicate",
+      "value": 167
+    },
+    {
+      "name": "Water supply issue",
+      "value": 80
+    },
+    {
+      "name": "Blockage / clogging",
+      "value": 72
+    },
+    {
+      "name": "Configuration needed",
+      "value": 67
+    },
+    {
+      "name": "Delayed resolution",
+      "value": 53
+    },
+    {
+      "name": "User confusion",
+      "value": 38
+    },
+    {
+      "name": "Power issue",
+      "value": 36
+    },
+    {
+      "name": "Data/process error",
+      "value": 31
+    },
+    {
+      "name": "Communication failure",
+      "value": 13
+    },
+    {
+      "name": "Simple reset needed",
+      "value": 6
+    }
+  ],
+  "monthly_trend": [
+    {
+      "month": "2024-07",
+      "tickets": 1,
+      "preventable": 0
+    },
+    {
+      "month": "2024-09",
+      "tickets": 1,
+      "preventable": 0
+    },
+    {
+      "month": "2024-10",
+      "tickets": 18,
+      "preventable": 2
+    },
+    {
+      "month": "2024-11",
+      "tickets": 54,
+      "preventable": 14
+    },
+    {
+      "month": "2024-12",
+      "tickets": 112,
+      "preventable": 16
+    },
+    {
+      "month": "2025-01",
+      "tickets": 116,
+      "preventable": 17
+    },
+    {
+      "month": "2025-02",
+      "tickets": 152,
+      "preventable": 20
+    },
+    {
+      "month": "2025-03",
+      "tickets": 208,
+      "preventable": 28
+    },
+    {
+      "month": "2025-04",
+      "tickets": 154,
+      "preventable": 22
+    },
+    {
+      "month": "2025-05",
+      "tickets": 205,
+      "preventable": 27
+    },
+    {
+      "month": "2025-06",
+      "tickets": 174,
+      "preventable": 29
+    },
+    {
+      "month": "2025-07",
+      "tickets": 142,
+      "preventable": 22
+    },
+    {
+      "month": "2025-08",
+      "tickets": 144,
+      "preventable": 23
+    },
+    {
+      "month": "2025-09",
+      "tickets": 186,
+      "preventable": 15
+    },
+    {
+      "month": "2025-10",
+      "tickets": 125,
+      "preventable": 6
+    },
+    {
+      "month": "2025-11",
+      "tickets": 169,
+      "preventable": 7
+    },
+    {
+      "month": "2025-12",
+      "tickets": 100,
+      "preventable": 6
+    },
+    {
+      "month": "2026-01",
+      "tickets": 190,
+      "preventable": 16
+    },
+    {
+      "month": "2026-02",
+      "tickets": 146,
+      "preventable": 7
+    },
+    {
+      "month": "2026-03",
+      "tickets": 273,
+      "preventable": 18
+    },
+    {
+      "month": "2026-04",
+      "tickets": 209,
+      "preventable": 16
+    },
+    {
+      "month": "2026-05",
+      "tickets": 131,
+      "preventable": 6
+    }
+  ],
+  "frustration_by_theme": [
+    {
+      "theme": "Onboarding",
+      "score": 3.4
+    },
+    {
+      "theme": "Appliances",
+      "score": 2.8
+    },
+    {
+      "theme": "Access & Security",
+      "score": 2.8
+    },
+    {
+      "theme": "Payments & Billing",
+      "score": 2.7
+    },
+    {
+      "theme": "Pest Issues",
+      "score": 2.6
+    },
+    {
+      "theme": "General Maintenance",
+      "score": 2.6
+    },
+    {
+      "theme": "Fixtures & Carpentry",
+      "score": 2.6
+    },
+    {
+      "theme": "Water & Plumbing",
+      "score": 2.5
+    },
+    {
+      "theme": "Climate & Comfort",
+      "score": 2.5
+    },
+    {
+      "theme": "Electrical",
+      "score": 2.4
+    },
+    {
+      "theme": "Connectivity",
+      "score": 2.3
+    },
+    {
+      "theme": "Documentation",
+      "score": 2.1
+    },
+    {
+      "theme": "Cleanliness",
+      "score": 2.0
+    },
+    {
+      "theme": "Move-out",
+      "score": 1.6
+    }
+  ],
+  "resolution_by_category": [
+    {
+      "category": "Maintenance",
+      "avg_hours": 447.5,
+      "median_hours": 291.6
+    },
+    {
+      "category": "Move-in",
+      "avg_hours": 371.7,
+      "median_hours": 241.6
+    },
+    {
+      "category": "Documentation",
+      "avg_hours": 313.0,
+      "median_hours": 156.8
+    },
+    {
+      "category": "Internal",
+      "avg_hours": 291.2,
+      "median_hours": 241.0
+    },
+    {
+      "category": "Pest Control",
+      "avg_hours": 245.7,
+      "median_hours": 151.0
+    },
+    {
+      "category": "Inventory",
+      "avg_hours": 241.6,
+      "median_hours": 150.0
+    },
+    {
+      "category": "Appliance",
+      "avg_hours": 202.0,
+      "median_hours": 111.9
+    },
+    {
+      "category": "Carpentry",
+      "avg_hours": 200.9,
+      "median_hours": 120.0
+    },
+    {
+      "category": "Cleaning",
+      "avg_hours": 192.8,
+      "median_hours": 77.3
+    },
+    {
+      "category": "Electrical",
+      "avg_hours": 185.8,
+      "median_hours": 91.4
+    },
+    {
+      "category": "Other",
+      "avg_hours": 184.1,
+      "median_hours": 101.3
+    },
+    {
+      "category": "Access & Security",
+      "avg_hours": 179.2,
+      "median_hours": 86.9
+    },
+    {
+      "category": "Plumbing",
+      "avg_hours": 165.5,
+      "median_hours": 74.8
+    },
+    {
+      "category": "Utilities",
+      "avg_hours": 146.5,
+      "median_hours": 66.7
+    },
+    {
+      "category": "Reimbursement",
+      "avg_hours": 93.8,
+      "median_hours": 27.3
+    },
+    {
+      "category": "Move-out",
+      "avg_hours": 54.4,
+      "median_hours": 22.2
+    }
+  ],
+  "cost_by_category": [
+    {
+      "category": "Plumbing",
+      "cost": 458715.0
+    },
+    {
+      "category": "Appliance",
+      "cost": 341173.06
+    },
+    {
+      "category": "Electrical",
+      "cost": 326127.0
+    },
+    {
+      "category": "Carpentry",
+      "cost": 311532.75
+    },
+    {
+      "category": "Reimbursement",
+      "cost": 163929.92
+    },
+    {
+      "category": "Other",
+      "cost": 143286.0
+    },
+    {
+      "category": "Pest Control",
+      "cost": 125381.0
+    },
+    {
+      "category": "Cleaning",
+      "cost": 49840.0
+    },
+    {
+      "category": "Internal",
+      "cost": 40961.0
+    },
+    {
+      "category": "Utilities",
+      "cost": 32572.57
+    },
+    {
+      "category": "Maintenance",
+      "cost": 28716.0
+    },
+    {
+      "category": "Access & Security",
+      "cost": 26855.0
+    },
+    {
+      "category": "Move-in",
+      "cost": 21687.0
+    },
+    {
+      "category": "Inventory",
+      "cost": 4156.0
+    },
+    {
+      "category": "Move-out",
+      "cost": 272.0
+    }
+  ],
+  "top_repeat_property_issues": [
+    {
+      "property": "R2",
+      "category": "Electrical",
+      "count": 80
+    },
+    {
+      "property": "R2",
+      "category": "Plumbing",
+      "count": 78
+    },
+    {
+      "property": "R1",
+      "category": "Appliance",
+      "count": 70
+    },
+    {
+      "property": "R1",
+      "category": "Carpentry",
+      "count": 69
+    },
+    {
+      "property": "R2",
+      "category": "Carpentry",
+      "count": 66
+    },
+    {
+      "property": "R1",
+      "category": "Electrical",
+      "count": 62
+    },
+    {
+      "property": "R1",
+      "category": "Plumbing",
+      "count": 59
+    },
+    {
+      "property": "R3",
+      "category": "Electrical",
+      "count": 57
+    },
+    {
+      "property": "R2",
+      "category": "Appliance",
+      "count": 53
+    },
+    {
+      "property": "R3",
+      "category": "Plumbing",
+      "count": 52
+    },
+    {
+      "property": "R1",
+      "category": "Utilities",
+      "count": 50
+    },
+    {
+      "property": "R1",
+      "category": "Other",
+      "count": 50
+    },
+    {
+      "property": "R3",
+      "category": "Other",
+      "count": 45
+    },
+    {
+      "property": "R3",
+      "category": "Carpentry",
+      "count": 42
+    },
+    {
+      "property": "R2",
+      "category": "Utilities",
+      "count": 36
+    },
+    {
+      "property": "R2",
+      "category": "Other",
+      "count": 33
+    },
+    {
+      "property": "R3",
+      "category": "Appliance",
+      "count": 31
+    },
+    {
+      "property": "R3",
+      "category": "Utilities",
+      "count": 31
+    },
+    {
+      "property": "R2",
+      "category": "Reimbursement",
+      "count": 25
+    },
+    {
+      "property": "R0",
+      "category": "Electrical",
+      "count": 21
+    },
+    {
+      "property": "R1",
+      "category": "Reimbursement",
+      "count": 20
+    },
+    {
+      "property": "R1",
+      "category": "Pest Control",
+      "count": 17
+    },
+    {
+      "property": "R3",
+      "category": "Pest Control",
+      "count": 16
+    },
+    {
+      "property": "R2",
+      "category": "Pest Control",
+      "count": 15
+    },
+    {
+      "property": "R3",
+      "category": "Reimbursement",
+      "count": 14
+    }
+  ],
+  "property_health": [
+    {
+      "rid": "R0",
+      "total_tickets": 105,
+      "open_tickets": 0,
+      "avg_frustration": 3.8,
+      "recurring_categories": 11,
+      "total_cost": 70825.0,
+      "health_score": 0.7
+    },
+    {
+      "rid": "R1",
+      "total_tickets": 429,
+      "open_tickets": 0,
+      "avg_frustration": 3.1,
+      "recurring_categories": 12,
+      "total_cost": 184386.82,
+      "health_score": 0.9
+    },
+    {
+      "rid": "R3",
+      "total_tickets": 306,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 12,
+      "total_cost": 140550.0,
+      "health_score": 1.2
+    },
+    {
+      "rid": "R2",
+      "total_tickets": 405,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 11,
+      "total_cost": 210111.75,
+      "health_score": 1.5
+    },
+    {
+      "rid": "62BR2",
+      "total_tickets": 17,
+      "open_tickets": 0,
+      "avg_frustration": 3.8,
+      "recurring_categories": 3,
+      "total_cost": 13755.06,
+      "health_score": 4.7
+    },
+    {
+      "rid": "80BR1",
+      "total_tickets": 14,
+      "open_tickets": 0,
+      "avg_frustration": 3.8,
+      "recurring_categories": 2,
+      "total_cost": 10226.0,
+      "health_score": 5.2
+    },
+    {
+      "rid": "60BR03",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 4.7,
+      "recurring_categories": 0,
+      "total_cost": 503.0,
+      "health_score": 5.3
+    },
+    {
+      "rid": "09BR3",
+      "total_tickets": 12,
+      "open_tickets": 0,
+      "avg_frustration": 3.5,
+      "recurring_categories": 2,
+      "total_cost": 17339.0,
+      "health_score": 5.5
+    },
+    {
+      "rid": "07BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 4.0,
+      "recurring_categories": 1,
+      "total_cost": 3018.0,
+      "health_score": 5.5
+    },
+    {
+      "rid": "R4",
+      "total_tickets": 18,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 4,
+      "total_cost": 8099.0,
+      "health_score": 5.7
+    },
+    {
+      "rid": "90BR1",
+      "total_tickets": 16,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 3,
+      "total_cost": 9594.0,
+      "health_score": 5.8
+    },
+    {
+      "rid": "84BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 4.2,
+      "recurring_categories": 0,
+      "total_cost": 499.0,
+      "health_score": 5.8
+    },
+    {
+      "rid": "130BR5",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 4.2,
+      "recurring_categories": 0,
+      "total_cost": 1350.0,
+      "health_score": 5.8
+    },
+    {
+      "rid": "26BR2",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 3.8,
+      "recurring_categories": 1,
+      "total_cost": 3246.0,
+      "health_score": 5.8
+    },
+    {
+      "rid": "20BR2",
+      "total_tickets": 13,
+      "open_tickets": 0,
+      "avg_frustration": 3.1,
+      "recurring_categories": 2,
+      "total_cost": 10523.0,
+      "health_score": 5.9
+    },
+    {
+      "rid": "98BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 3.6,
+      "recurring_categories": 1,
+      "total_cost": 7283.0,
+      "health_score": 5.9
+    },
+    {
+      "rid": "79BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 4.0,
+      "recurring_categories": 0,
+      "total_cost": 1805.0,
+      "health_score": 6.0
+    },
+    {
+      "rid": "32BR3",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 3.5,
+      "recurring_categories": 1,
+      "total_cost": 10156.0,
+      "health_score": 6.0
+    },
+    {
+      "rid": "28BR1",
+      "total_tickets": 12,
+      "open_tickets": 0,
+      "avg_frustration": 2.9,
+      "recurring_categories": 2,
+      "total_cost": 5127.0,
+      "health_score": 6.1
+    },
+    {
+      "rid": "94BR1",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 3.4,
+      "recurring_categories": 1,
+      "total_cost": 4593.0,
+      "health_score": 6.1
+    },
+    {
+      "rid": "32BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.8,
+      "recurring_categories": 0,
+      "total_cost": 497.0,
+      "health_score": 6.2
+    },
+    {
+      "rid": "95BR0",
+      "total_tickets": 20,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 2,
+      "total_cost": 41369.6,
+      "health_score": 6.2
+    },
+    {
+      "rid": "86BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 3.8,
+      "recurring_categories": 0,
+      "total_cost": 1875.0,
+      "health_score": 6.2
+    },
+    {
+      "rid": "39BR0",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 3.3,
+      "recurring_categories": 1,
+      "total_cost": 15541.0,
+      "health_score": 6.2
+    },
+    {
+      "rid": "37BR1",
+      "total_tickets": 15,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 2,
+      "total_cost": 14769.0,
+      "health_score": 6.3
+    },
+    {
+      "rid": "42BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 3.7,
+      "recurring_categories": 0,
+      "total_cost": 1157.0,
+      "health_score": 6.3
+    },
+    {
+      "rid": "83BR0",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 3.7,
+      "recurring_categories": 0,
+      "total_cost": 8866.0,
+      "health_score": 6.3
+    },
+    {
+      "rid": "46BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 3.7,
+      "recurring_categories": 0,
+      "total_cost": 9041.0,
+      "health_score": 6.3
+    },
+    {
+      "rid": "24BR3",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 3.1,
+      "recurring_categories": 1,
+      "total_cost": 7921.0,
+      "health_score": 6.4
+    },
+    {
+      "rid": "80BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 2,
+      "total_cost": 13097.3,
+      "health_score": 6.4
+    },
+    {
+      "rid": "R5",
+      "total_tickets": 13,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 3,
+      "total_cost": 4469.0,
+      "health_score": 6.5
+    },
+    {
+      "rid": "10BR3",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 1,
+      "total_cost": 16294.0,
+      "health_score": 6.5
+    },
+    {
+      "rid": "29BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.5,
+      "recurring_categories": 0,
+      "total_cost": 5713.0,
+      "health_score": 6.5
+    },
+    {
+      "rid": "108BR2",
+      "total_tickets": 15,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 3,
+      "total_cost": 13278.0,
+      "health_score": 6.5
+    },
+    {
+      "rid": "62BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 3.4,
+      "recurring_categories": 0,
+      "total_cost": 1919.0,
+      "health_score": 6.6
+    },
+    {
+      "rid": "29BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 3.4,
+      "recurring_categories": 0,
+      "total_cost": 23918.0,
+      "health_score": 6.6
+    },
+    {
+      "rid": "30BR1",
+      "total_tickets": 14,
+      "open_tickets": 0,
+      "avg_frustration": 1.9,
+      "recurring_categories": 3,
+      "total_cost": 6350.0,
+      "health_score": 6.6
+    },
+    {
+      "rid": "08BR3",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 3.3,
+      "recurring_categories": 0,
+      "total_cost": 3200.0,
+      "health_score": 6.7
+    },
+    {
+      "rid": "55BR2",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 1,
+      "total_cost": 17253.0,
+      "health_score": 6.7
+    },
+    {
+      "rid": "89BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 1,
+      "total_cost": 8378.0,
+      "health_score": 6.7
+    },
+    {
+      "rid": "27BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 3.3,
+      "recurring_categories": 0,
+      "total_cost": 17280.0,
+      "health_score": 6.7
+    },
+    {
+      "rid": "09BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 3.3,
+      "recurring_categories": 0,
+      "total_cost": 10316.0,
+      "health_score": 6.7
+    },
+    {
+      "rid": "55BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 1,
+      "total_cost": 4277.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "102BR3",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 1,
+      "total_cost": 0.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "21BR2",
+      "total_tickets": 17,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 3,
+      "total_cost": 11215.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "40BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 1,
+      "total_cost": 15184.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "12BR3",
+      "total_tickets": 15,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 2,
+      "total_cost": 10999.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "122BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 1,
+      "total_cost": 4200.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "139BR0",
+      "total_tickets": 22,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 1,
+      "total_cost": 9144.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "158BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.2,
+      "recurring_categories": 0,
+      "total_cost": 5010.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "121BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.2,
+      "recurring_categories": 0,
+      "total_cost": 6974.0,
+      "health_score": 6.8
+    },
+    {
+      "rid": "18BR3",
+      "total_tickets": 13,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 1,
+      "total_cost": 13757.0,
+      "health_score": 6.9
+    },
+    {
+      "rid": "81BR0",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 1,
+      "total_cost": 7564.0,
+      "health_score": 6.9
+    },
+    {
+      "rid": "19BR0",
+      "total_tickets": 20,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 2,
+      "total_cost": 986.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "93BR1",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 2,
+      "total_cost": 13955.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "110BR0",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 0,
+      "total_cost": 9621.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "88BR3",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 2,
+      "total_cost": 10595.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "163BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 0,
+      "total_cost": 4620.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "86BR4",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 0,
+      "total_cost": 4398.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "133BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 3.0,
+      "recurring_categories": 0,
+      "total_cost": 4311.0,
+      "health_score": 7.0
+    },
+    {
+      "rid": "12BR1",
+      "total_tickets": 12,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 1,
+      "total_cost": 18944.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "15BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.9,
+      "recurring_categories": 0,
+      "total_cost": 1830.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "98BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.9,
+      "recurring_categories": 0,
+      "total_cost": 2916.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "11BR1",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 1,
+      "total_cost": 7199.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "126BR1",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 1,
+      "total_cost": 6280.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "129BR1",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 1,
+      "total_cost": 2443.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "129BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 1,
+      "total_cost": 5752.0,
+      "health_score": 7.1
+    },
+    {
+      "rid": "65BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 1,
+      "total_cost": 4618.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "90BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 0,
+      "total_cost": 2193.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "76BR2",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 1,
+      "total_cost": 6366.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "68BR1",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 1,
+      "total_cost": 2378.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "47BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 0,
+      "total_cost": 4849.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "101BR2",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 1,
+      "total_cost": 3401.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "10BR2",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 1,
+      "total_cost": 5785.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "17BR1",
+      "total_tickets": 12,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 1,
+      "total_cost": 9922.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "114BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 0,
+      "total_cost": 4551.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "83BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 1,
+      "total_cost": 2684.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "77BR0",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.8,
+      "recurring_categories": 0,
+      "total_cost": 21365.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "162BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 1,
+      "total_cost": 1100.0,
+      "health_score": 7.2
+    },
+    {
+      "rid": "59BR0",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 1,
+      "total_cost": 4804.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "68BR0",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 439.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "106BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 1845.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "49BR3",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 4981.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "101BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 3543.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "132BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 577.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "108BR3",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "157BR0",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 1,
+      "total_cost": 1820.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "182BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.7,
+      "recurring_categories": 0,
+      "total_cost": 4700.0,
+      "health_score": 7.3
+    },
+    {
+      "rid": "54BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 0,
+      "total_cost": 6096.0,
+      "health_score": 7.4
+    },
+    {
+      "rid": "24BR2",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 2.1,
+      "recurring_categories": 1,
+      "total_cost": 12187.0,
+      "health_score": 7.4
+    },
+    {
+      "rid": "88BR1",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.6,
+      "recurring_categories": 0,
+      "total_cost": 7090.0,
+      "health_score": 7.4
+    },
+    {
+      "rid": "123BR0",
+      "total_tickets": 12,
+      "open_tickets": 0,
+      "avg_frustration": 1.6,
+      "recurring_categories": 2,
+      "total_cost": 12468.0,
+      "health_score": 7.4
+    },
+    {
+      "rid": "106BR1",
+      "total_tickets": 16,
+      "open_tickets": 0,
+      "avg_frustration": 1.6,
+      "recurring_categories": 2,
+      "total_cost": 7751.0,
+      "health_score": 7.4
+    },
+    {
+      "rid": "45BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.5,
+      "recurring_categories": 0,
+      "total_cost": 6577.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "04BR0",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.5,
+      "recurring_categories": 0,
+      "total_cost": 913.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "91BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 3537.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "63BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 4460.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "78BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.5,
+      "recurring_categories": 0,
+      "total_cost": 1890.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "109BR1",
+      "total_tickets": 10,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 2,
+      "total_cost": 12156.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "78BR4",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 11537.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "128BR3",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 5664.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "49BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 1,
+      "total_cost": 23691.0,
+      "health_score": 7.5
+    },
+    {
+      "rid": "37BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 12708.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "78BR2",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 3860.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "50BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.9,
+      "recurring_categories": 1,
+      "total_cost": 11800.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "82BR3",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 1.9,
+      "recurring_categories": 1,
+      "total_cost": 5078.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "28BR3",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 1054.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "42BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 4924.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "24BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 1.9,
+      "recurring_categories": 1,
+      "total_cost": 12284.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "67BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 6860.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "4BR0",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 3853.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "154BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.4,
+      "recurring_categories": 0,
+      "total_cost": 3025.0,
+      "health_score": 7.6
+    },
+    {
+      "rid": "18BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 2063.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "48BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 1,
+      "total_cost": 2472.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "78BR3",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 1,
+      "total_cost": 9618.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "71BR3",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 11244.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "82BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 2460.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "110BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 10657.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "70BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 5020.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "13BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 2292.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "14BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 8004.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "133BR3",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "160BR0",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 3250.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "156BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.3,
+      "recurring_categories": 0,
+      "total_cost": 5082.0,
+      "health_score": 7.7
+    },
+    {
+      "rid": "50BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 5038.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "66BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 1,
+      "total_cost": 3362.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "73BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 3721.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "49BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 2080.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "61BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 8686.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "114BR3",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 1,
+      "total_cost": 3186.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "122BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 7420.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "75BR0",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 16882.58,
+      "health_score": 7.8
+    },
+    {
+      "rid": "136BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.2,
+      "recurring_categories": 0,
+      "total_cost": 5597.0,
+      "health_score": 7.8
+    },
+    {
+      "rid": "44BR3",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.1,
+      "recurring_categories": 0,
+      "total_cost": 6906.0,
+      "health_score": 7.9
+    },
+    {
+      "rid": "49BR5",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 3848.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "47BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 10287.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "07BR0",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 1291.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "106BR3",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 3107.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "88BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 1152.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "68BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 1430.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "94BR3",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 1663.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "25BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 1170.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "40BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 3362.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "08BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 4417.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "68BR3",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 9860.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "91BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 5103.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "63BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 1992.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "134BR2",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 4681.0,
+      "health_score": 8.0
+    },
+    {
+      "rid": "180BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 970.84,
+      "health_score": 8.0
+    },
+    {
+      "rid": "93BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 2.0,
+      "recurring_categories": 0,
+      "total_cost": 5765.6,
+      "health_score": 8.0
+    },
+    {
+      "rid": "62BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.4,
+      "recurring_categories": 1,
+      "total_cost": 4373.0,
+      "health_score": 8.1
+    },
+    {
+      "rid": "135BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.9,
+      "recurring_categories": 0,
+      "total_cost": 1995.0,
+      "health_score": 8.1
+    },
+    {
+      "rid": "55BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 3893.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "18BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 1405.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "84BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 7088.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "48BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 484.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "70BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 1038.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "21BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 1780.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "99BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 1748.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "130BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 5875.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "122BR1",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 1,
+      "total_cost": 0.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "50BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 1,
+      "total_cost": 3163.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "181BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.8,
+      "recurring_categories": 0,
+      "total_cost": 747.0,
+      "health_score": 8.2
+    },
+    {
+      "rid": "44BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 0,
+      "total_cost": 5075.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "20BR3",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 0,
+      "total_cost": 8627.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "49BR4",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 0,
+      "total_cost": 4800.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "108BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 0,
+      "total_cost": 1857.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "58BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 1,
+      "total_cost": 1850.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "125BR1",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 1,
+      "total_cost": 0.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "155BR0",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 1,
+      "total_cost": 3568.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "13BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.7,
+      "recurring_categories": 0,
+      "total_cost": 9257.0,
+      "health_score": 8.3
+    },
+    {
+      "rid": "17BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.6,
+      "recurring_categories": 0,
+      "total_cost": 20776.0,
+      "health_score": 8.4
+    },
+    {
+      "rid": "92BR2",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 1.6,
+      "recurring_categories": 0,
+      "total_cost": 8096.0,
+      "health_score": 8.4
+    },
+    {
+      "rid": "25BR2",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.6,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 8.4
+    },
+    {
+      "rid": "145BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.6,
+      "recurring_categories": 0,
+      "total_cost": 1502.0,
+      "health_score": 8.4
+    },
+    {
+      "rid": "72BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 3964.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "54BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 1972.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "64BR0",
+      "total_tickets": 11,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 1973.75,
+      "health_score": 8.5
+    },
+    {
+      "rid": "75BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 3019.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "06BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 1,
+      "total_cost": 3923.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "01BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 2919.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "61BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 3983.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "30BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 2500.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "43BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.5,
+      "recurring_categories": 0,
+      "total_cost": 2411.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "118BR0",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 1,
+      "total_cost": 3729.0,
+      "health_score": 8.5
+    },
+    {
+      "rid": "54BR1",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.4,
+      "recurring_categories": 0,
+      "total_cost": 2282.0,
+      "health_score": 8.6
+    },
+    {
+      "rid": "63BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 5038.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "26BR1",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 3670.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "98BR2",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 1,
+      "total_cost": 3377.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "41BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 242.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "104BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 1800.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "15BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 5497.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "111BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 453.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "127BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 715.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "57BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 1,
+      "total_cost": 2299.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "40BR3",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.3,
+      "recurring_categories": 0,
+      "total_cost": 1360.0,
+      "health_score": 8.7
+    },
+    {
+      "rid": "33BR0",
+      "total_tickets": 8,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 1,
+      "total_cost": 250.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "10BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 0,
+      "total_cost": 2118.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "104BR2",
+      "total_tickets": 6,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 0,
+      "total_cost": 60.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "47BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 0,
+      "total_cost": 2118.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "49BR0",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 0,
+      "total_cost": 1049.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "127BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 0,
+      "total_cost": 1707.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "180BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.2,
+      "recurring_categories": 0,
+      "total_cost": 2130.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "172BR0",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 1,
+      "total_cost": 2800.0,
+      "health_score": 8.8
+    },
+    {
+      "rid": "69BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 897.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "104BR3",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 19006.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "19BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 2201.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "76BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "65BR4",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 3718.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "175BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 2299.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "70BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 8892.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "34BR3",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 1.0,
+      "recurring_categories": 0,
+      "total_cost": 153.0,
+      "health_score": 9.0
+    },
+    {
+      "rid": "30BR2",
+      "total_tickets": 9,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 0,
+      "total_cost": 3491.0,
+      "health_score": 9.2
+    },
+    {
+      "rid": "102BR1",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 0,
+      "total_cost": 1057.0,
+      "health_score": 9.2
+    },
+    {
+      "rid": "46BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 0,
+      "total_cost": 1000.0,
+      "health_score": 9.2
+    },
+    {
+      "rid": "71BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 0,
+      "total_cost": 4265.0,
+      "health_score": 9.2
+    },
+    {
+      "rid": "187BR2",
+      "total_tickets": 4,
+      "open_tickets": 0,
+      "avg_frustration": 0.8,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 9.2
+    },
+    {
+      "rid": "11BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 0.7,
+      "recurring_categories": 0,
+      "total_cost": 1115.0,
+      "health_score": 9.3
+    },
+    {
+      "rid": "164BR0",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 0.7,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 9.3
+    },
+    {
+      "rid": "112BR0",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 0.7,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 9.3
+    },
+    {
+      "rid": "27BR2",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 0.7,
+      "recurring_categories": 0,
+      "total_cost": 0.0,
+      "health_score": 9.3
+    },
+    {
+      "rid": "115BR2",
+      "total_tickets": 5,
+      "open_tickets": 0,
+      "avg_frustration": 0.6,
+      "recurring_categories": 0,
+      "total_cost": 547.0,
+      "health_score": 9.4
+    },
+    {
+      "rid": "64BR1",
+      "total_tickets": 7,
+      "open_tickets": 0,
+      "avg_frustration": 0.4,
+      "recurring_categories": 0,
+      "total_cost": 602.0,
+      "health_score": 9.6
+    },
+    {
+      "rid": "132BR1",
+      "total_tickets": 3,
+      "open_tickets": 0,
+      "avg_frustration": 0.0,
+      "recurring_categories": 0,
+      "total_cost": 1647.0,
+      "health_score": 10.0
+    }
+  ],
+  "first_week_by_theme": [
+    {
+      "theme": "Water & Plumbing",
+      "count": 156
+    },
+    {
+      "theme": "General Maintenance",
+      "count": 133
+    },
+    {
+      "theme": "Connectivity",
+      "count": 83
+    },
+    {
+      "theme": "Appliances",
+      "count": 82
+    },
+    {
+      "theme": "Climate & Comfort",
+      "count": 74
+    },
+    {
+      "theme": "Access & Security",
+      "count": 67
+    },
+    {
+      "theme": "Electrical",
+      "count": 64
+    },
+    {
+      "theme": "Fixtures & Carpentry",
+      "count": 55
+    },
+    {
+      "theme": "Onboarding",
+      "count": 44
+    },
+    {
+      "theme": "Payments & Billing",
+      "count": 43
+    },
+    {
+      "theme": "Pest Issues",
+      "count": 33
+    },
+    {
+      "theme": "Cleanliness",
+      "count": 27
+    },
+    {
+      "theme": "Documentation",
+      "count": 14
+    },
+    {
+      "theme": "Move-out",
+      "count": 7
+    }
+  ],
+  "repeat_customers": [
+    {
+      "name": "Debjit",
+      "tickets": 47
+    },
+    {
+      "name": "Harsh",
+      "tickets": 43
+    },
+    {
+      "name": "Ayush",
+      "tickets": 42
+    },
+    {
+      "name": "Nikhil",
+      "tickets": 38
+    },
+    {
+      "name": "Tushar",
+      "tickets": 37
+    },
+    {
+      "name": "Aditya",
+      "tickets": 36
+    },
+    {
+      "name": "Harshit",
+      "tickets": 35
+    },
+    {
+      "name": "Pooja",
+      "tickets": 35
+    },
+    {
+      "name": "Tejus",
+      "tickets": 35
+    },
+    {
+      "name": "Abhinav",
+      "tickets": 34
+    },
+    {
+      "name": "Shubham",
+      "tickets": 33
+    },
+    {
+      "name": "Yash",
+      "tickets": 31
+    },
+    {
+      "name": "Akshat",
+      "tickets": 27
+    },
+    {
+      "name": "Shikhar",
+      "tickets": 26
+    },
+    {
+      "name": "Anubhav",
+      "tickets": 26
+    },
+    {
+      "name": "Akshay",
+      "tickets": 26
+    },
+    {
+      "name": "Rahul",
+      "tickets": 25
+    },
+    {
+      "name": "Garima",
+      "tickets": 24
+    },
+    {
+      "name": "Priyam",
+      "tickets": 22
+    },
+    {
+      "name": "Utkarsh",
+      "tickets": 22
+    }
+  ],
+  "ai_insights": [
+    {
+      "type": "preventable",
+      "severity": "high",
+      "title": "10.5% of tickets are preventable",
+      "description": "317 tickets could be prevented through better UX. Top preventable categories: Utilities (57), Electrical (56), Reimbursement (48).",
+      "recommendation": "Invest in self-serve tools, proactive information sharing, and guided troubleshooting flows"
+    },
+    {
+      "type": "zero_effort",
+      "severity": "high",
+      "title": "181 tickets (6.0%) required no physical intervention",
+      "description": "Breakdown: 137 resolved by sharing info, 4 self-resolved, 11 no real issue, 29 duplicates. These tickets exist because users lacked access to information or tools.",
+      "recommendation": "Build a self-serve portal with payment visibility, ticket status tracking, and troubleshooting guides"
+    },
+    {
+      "type": "onboarding",
+      "severity": "high",
+      "title": "29.3% of tickets come within the first week of tenancy",
+      "description": "882 tickets are raised within 7 days of a customer's first ticket. Top themes: Water & Plumbing (156), General Maintenance (133), Connectivity (83). This is pure onboarding friction.",
+      "recommendation": "Create an interactive move-in checklist that proactively addresses WiFi setup, utility connections, appliance guides, and key contacts"
+    },
+    {
+      "type": "communication",
+      "severity": "medium",
+      "title": "24 tickets involve communication gaps",
+      "description": "0.8% of tickets mention lack of response, delayed updates, or follow-up confusion. Every follow-up ticket is a UX failure.",
+      "recommendation": "Implement automated status updates via WhatsApp/SMS when ticket status changes, vendor is assigned, or resolution is complete"
+    },
+    {
+      "type": "infrastructure",
+      "severity": "high",
+      "title": "5 properties account for disproportionate ticket volume",
+      "description": "Worst health scores: R0 (score 0.7/10, 105 tickets), R1 (score 0.9/10, 429 tickets), R3 (score 1.2/10, 306 tickets). These need proactive maintenance audits.",
+      "recommendation": "Schedule quarterly maintenance inspections for properties with health score below 5"
+    },
+    {
+      "type": "cost",
+      "severity": "medium",
+      "title": "\u20b92,075,204 total cost across all tickets",
+      "description": "Highest cost categories: Plumbing (\u20b9458,715), Appliance (\u20b9341,173), Electrical (\u20b9326,127). Preventable tickets alone account for \u20b9108,523.",
+      "recommendation": "Focus cost reduction on the top 3 categories \u2014 preventable tickets represent recoverable spend"
+    },
+    {
+      "type": "resolution_time",
+      "severity": "medium",
+      "title": "Average resolution: 7.7 days (median: 3.9 days)",
+      "description": "Slowest categories: Maintenance (18.6d avg), Move-in (15.5d avg), Documentation (13.0d avg). Tickets open over 7 days have 2x frustration scores.",
+      "recommendation": "Set category-specific SLAs and display expected resolution times to tenants at ticket creation"
+    },
+    {
+      "type": "self_serve",
+      "severity": "medium",
+      "title": "199 tickets could have been self-served",
+      "description": "Top self-serve themes: Connectivity (44), General Maintenance (27), Payments & Billing (26). These were resolved by resets, basic troubleshooting, or information that should be accessible.",
+      "recommendation": "Add contextual self-help before ticket creation: 'Before raising a ticket, try these steps...'"
+    },
+    {
+      "type": "repeat_customers",
+      "severity": "medium",
+      "title": "83 customers have raised 10+ tickets each",
+      "description": "Top: Debjit (47), Harsh (43), Ayush (42), Nikhil (38), Tushar (37). These may be power users, unhappy tenants, or properties with systemic issues.",
+      "recommendation": "Proactively reach out to high-ticket customers to understand root causes and improve their experience"
+    }
+  ]
+}
